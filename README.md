@@ -1,13 +1,26 @@
-# screen.css
+<p align="center">
+<img src="https://i.postimg.cc/Qtck3Nzc/MgEEygn7.gif" width="300"/>
+  </br>
+  </br>
 A complete media query framework for CSS, to apply specific properties in specific screen</br>
 Note: Size of every media query is `50px, 100px, 150px, 200px, 250px ....... 2500px`
+</br>
+</br>
+  <img src="https://i.postimg.cc/KYwJbH8h/rohit-screen.gif" width="600"/>
+</p>
 
 ## CDN
 <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/JsDelivr_Logo.svg/1200px-JsDelivr_Logo.svg.png"/>
+### All-in-one
 This is all-in-one CSS, its may make your site slow, We recommanded to use single css for each class. see below.
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen.css" type="text/css"/>
+```
+### For Single
+`screen-max-show-hide.css`, `screen-min-show-hide.css`, `screen-max-color.css`,`screen-min-color.css`,`screen-max-font-size.css`, `screen-min-font-size.css`, `screen-max-height-width.css`, `screen-min-height-width.css`
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/<css-file-here>" type="text/css"/>
 ```
 
 ### Usage
@@ -19,50 +32,18 @@ hide-{type}
 hide-max900 or hide-min900
 ```
 ### Classes for Hide & Show
-For Max
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-max-show-hide.css" type="text/css"/>
-```
-For Min
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-min-show-hide.css" type="text/css"/>
-```
 |Class|Example|Description
 |-----|--------|----------|
 |hide-{type}{width}|hide-max600|hide specific content
 |show-{type}{width}|show-min600|show specific content
 
 ### Classes for Color
-For Max
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-max-color.css" type="text/css"/>
-```
-For Min
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-min-color.css" type="text/css"/>
-```
 |Class|Example|Description
 |-----|--------|----------|
 |fcolor-{color}|fcolor-red-max400|Color the font
 |bcolor-{color}|bcolor-red-max400|Color on Background
 
 ### Classes for Size
-For Max Font
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-max-font-size.css" type="text/css"/>
-```
-For Min Font
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-min-font-size.css" type="text/css"/>
-```
-For Max Height-Width
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-max-height-width.css" type="text/css"/>
-```
-For Min Height-Width
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen-min-height-width.css" type="text/css"/>
-```
 All size will denotes as pixel (px) only. font max size is 854px. height-width max size is 1193px.
 |Class|Example|Description
 |-----|--------|----------|
@@ -105,3 +86,5 @@ In the first version this framework is only have classes for
 show & hide, font-color, font-size, height, width, background, text-align, align-contents, align-items.
 
 Create an issue if you want more feature or any property, thank you. 
+
+Created by <a href="https://rohitchouhan.com">Rohit Chouhan</a>
