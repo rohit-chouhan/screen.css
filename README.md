@@ -27,14 +27,14 @@ hide-max900 or hide-min900
 |bcolor-{color}|bcolor-red-max400|Color on Background
 
 ### Classes for Size
-All size will denotes as pixel (px) only.
+All size will denotes as pixel (px) only. font max size is 854px. height-width max size is 1193px.
 |Class|Example|Description
 |-----|--------|----------|
 |fsize-{size}| fsize-20-max700| Resize font
 |height-{size} | height-400-min400 | Resize Height of elements
 |weight-{size} | width-300-max400 | Resize Width of elements
 
-### Classes for Margin
+<!-- ### Classes for Margin
 `r` is the nagative value, thats mean if normal size of 20px, and you are using with `r` it will be -20px.
 |Class|Example|Description
 |-----|--------|----------|
@@ -63,7 +63,7 @@ All size will denotes as pixel (px) only.
 |rpb-{size}| rpb-20-max700| Padding-bottom -20px
 |pr-{size}| pr-20-max700| Padding-right 20px
 |rpr-{size}| rpr-20-max700| Padding-right -20px
-
+-->
 ## Note
 In the first version this framework is only have classes for
 show & hide, font-color, font-size, height, width, background, text-align, align-contents, align-items, margins, paddings.
