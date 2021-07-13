@@ -2,6 +2,14 @@
 A complete media query framework for CSS, to apply specific properties in specific screen</br>
 Note: Size of every media query is `50px, 100px, 150px, 200px, 250px ....... 2500px`
 
+## CDN
+<img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/JsDelivr_Logo.svg/1200px-JsDelivr_Logo.svg.png"/>
+This is all-in-one CSS, its may make your site slow, We recommanded to use single css for each class. see below.
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rohit-chouhan/screen.css/dist/screen.css" type="text/css"/>
+```
+
 ### Usage
 Always use type with dash scope (max or min) in the last of class with size, `-max300`, `-min600`.
 
