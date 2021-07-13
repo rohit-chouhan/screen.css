@@ -30,8 +30,11 @@ Always use type with dash scope (max or min) in the last of class with size, `-m
 
 ```html
 {class}{type}
-hide-{type}
-hide-max900 or hide-min900
+hide-{type}{width-size}
+<!-- example for max -->
+hide-max900
+<!-- example for min -->
+hide-min900
 ```
 ### Classes for Hide & Show
 |Class|Example|Description
