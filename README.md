@@ -11,7 +11,9 @@ Note: Size of every media query is `50px, 100px, 150px, 200px, 250px ....... 250
 
 ## CDN
 <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/JsDelivr_Logo.svg/1200px-JsDelivr_Logo.svg.png"/>
+
 ### All-in-one
+
 This is all-in-one CSS, its may make your site slow, We recommanded to use single css for each class. see below.
 
 ```html
