@@ -2,7 +2,7 @@
  "name": "@rohit-chouhan/screen.css",                                    
  "version": "1.0.0",                                                    
  "description": "A complete media query framework for CSS, to apply specific properties in specific screen",                             
- "main": "screen.css",                                                
+ "main": "dist/screen.css",                                                
  "scripts": {                                                             
    "test": "echo \"Error: no test specified\" && exit 1"              
  },                                                                         
