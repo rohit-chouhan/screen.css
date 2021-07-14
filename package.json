@@ -1,0 +1,23 @@
+{      
+ "name": "@rohit-chouhan/screen.css",                                    
+ "version": "1.0.0",                                                    
+ "description": "A complete media query framework for CSS, to apply specific properties in specific screen",                             
+ "main": "screen.css",                                                
+ "scripts": {                                                             
+   "test": "echo \"Error: no test specified\" && exit 1"              
+ },                                                                         
+ "keywords": [                                                            
+  "css","animation","media","framework","mobile","screen"                                                                 
+ ],                                                                         
+ "author": "Rohit Chouhan",                                             
+ "license": "Apache-2.0 License",                                                      
+ "repository": {                                                         
+    "type": "git",                                                     
+     "url": "git+https://github.com/rohit-chouhan/screen.css.git"          
+ },                                                                         
+ "bugs": {                                                               
+    "url": "https://github.com/rohit-chouhan/screen.css/issues"           
+ },                                                                        
+  "homepage": "https://github.com/rohit-chouhan/screen.css#readme",      
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }    
+ }
