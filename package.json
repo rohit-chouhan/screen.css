@@ -1,6 +1,6 @@
 {      
  "name": "@rohit-chouhan/screen.css",                                    
- "version": "1.0.0",                                                    
+ "version": "1.0.1",                                                    
  "description": "A complete media query framework for CSS, to apply specific properties in specific screen",                             
  "main": "dist/screen.css",                                                
  "scripts": {                                                             
